@@ -1,0 +1,8 @@
+menu:
+  projects: Projets
+  about: About
+  contact: Contact
+index:
+  intro:
+    footerText: 'Immersive, interactive, narrative: AR, VR, <br> installations & other cool stuffs'
+    spacebarText: "Barre d'espacement pour changer d'ambiance"

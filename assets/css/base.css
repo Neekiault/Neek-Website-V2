@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Cardo:ital,wght@0,400;0,700;1,400&family=Gotu&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+:root{
+    --main-purple: #751FFF;
+    --main-green: #C5F57B;
+    --main-grey: #F6F9FE;
+    --main-black: #050322;
+    --main-white: #FFFFFF;
+    --secondary-purple: #DDCEF8;
+    --secondary-green: #E4F5CB;
+    --secondary-blue: #D0E6FB;
+    --secondary-grey: #E4E4E8;
+}
+
+html{
+    font-size: 16px;
+
+    font-family: 'AR One Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+        'ARRR' 10;
+}
+/* 
+p{
+    font-family: 'AR One Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+        'ARRR' 10;
+} */
+ p{
+    line-height: 1.3em;
+ }
+
+h1{
+    font-family: 'Gotu', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-family: 'Gotu', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.accent{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+}
