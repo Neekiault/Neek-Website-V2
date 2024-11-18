@@ -6,3 +6,6 @@ index:
   intro:
     footerText: 'Immersive, interactive, narrative: AR, VR, <br> installations & other cool stuffs'
     spacebarText: 'Spacebar to change mood'
+    moodIntroText: >-
+      <h1>Hi, it's <span class='icon neek-bonhomme'></span></h1>
+      <p>Your <span class='icon smiley'></span> <span class='accent'>nerds</span> and <span class='icon wifi'></span> <span class='accent'>geeks</span> people aiming to solve your <span class='icon mouse'></span> <span class='accent'>creative problems</span></p>

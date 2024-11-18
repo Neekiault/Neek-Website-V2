@@ -5,4 +5,7 @@ menu:
 index:
   intro:
     footerText: 'Immersive, interactive, narrative: AR, VR, <br> installations & other cool stuffs'
-    spacebarText: "Barre d'espacement pour changer d'ambiance"
+    spacebarText: Barre d'espacement pour changer d\'ambiance
+    moodIntroText: >-
+      <h1>Hi, it's <span class='neek-bonhomme'></span></h1>
+      <p>Your <span class='smiley-icon'></span> <span class='accent'>nerds</span> and <span class='wifi-icon'></span> <span class='accent'>geeks</span> people aiming to solve your <span class='mouse-icon'></span> <span class='accent'>creative problems</span></p>

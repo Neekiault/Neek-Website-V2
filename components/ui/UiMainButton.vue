@@ -14,6 +14,7 @@
 <style lang="scss" scoped>
 a{
     background: var(--main-grey);
+    color: var(--main-purple);
     border-radius: 4px;
     font-size: .95em;
     font-weight: 500;
@@ -33,11 +34,25 @@ a{
 
     border: 1px solid var(--main-purple);
 
-    transition: border .3s ease-in-out, background .3s ease-in-out;
+    transition: border .3s ease-in-out, background .3s ease-in-out, color .3s linear;
+
+    &.main-purple{
+        background: var(--main-grey);
+        color: var(--main-purple);
+    }
+
+    &.secondary-green{
+        background: var(--main-purple);
+        color: var(--secondary-green);
+    }
+
+    &.secondary-purple{
+        background: var(--main-green);
+        color: var(--main-purple);
+    }
 }
 .icon{
     position: absolute;
-    color: var(--main-purple);
     display: block;
     
     width: 12px;
@@ -45,26 +60,30 @@ a{
 
     top: 7px;
     right: 8px;
-
-    transition: color .3s ease-in-out;
-}
-
-.text{
-    color: var(--main-purple);
-
-    transition: color .3s ease-in-out;
 }
 
 @media (hover:hover){
     a:hover{
         background: var(--main-purple);
+        color: var(--main-grey);
+        border-color: var(--main-purple);
 
-        .text{
-            color: var(--main-grey);
+        &.main-purple{
+            background: var(--main-green);
+            color: var(--main-purple);
+            border-color: var(--main-purple);
+        }
+        
+        &.secondary-green{
+            background: var(--secondary-purple);
+            color: var(--main-black);
+            border-color: var(--main-black);
         }
 
-        .icon{
-            color: var(--main-grey);
+        &.secondary-purple{
+            background: var(--secondary-grey);
+            color: var(--main-purple);
+            border-color: var(--main-purple);
         }
     }
 }

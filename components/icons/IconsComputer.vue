@@ -24,7 +24,7 @@
 </svg>
 </template>
 <style lang="scss" scoped>
-svg{
+.button-icon{
     position: absolute;
     top: 0px;
     left: 0px;

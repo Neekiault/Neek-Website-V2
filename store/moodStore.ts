@@ -1,8 +1,8 @@
 import { defineStore } from 'pinia'
 import { IndexMoodIntro, IndexMoodProjects, IndexMoodType, IndexMoodTeam }from '#components';
 
-export const useNeekStore = defineStore('neekStore', ()=>{
-    const headerMoods = markRaw<IHeaderMood[]>([{
+export const useMoodStore = defineStore('moodStore', ()=>{
+    const moods = markRaw<IHeaderMood[]>([{
         component: IndexMoodIntro,
         colorScheme: 'main-purple'
     }, {
@@ -16,6 +16,10 @@ export const useNeekStore = defineStore('neekStore', ()=>{
         colorScheme: 'secondary-purple'
     }])
     const currentMood = ref(0)
+    const useMood = ref(false)
+    const moodClass = computed(()=> {
+        return useMood.value ? moods[currentMood.value].colorScheme : ""
+    })
 
-    return { currentMood, headerMoods}
+    return { currentMood, moods, useMood, moodClass}
 })
